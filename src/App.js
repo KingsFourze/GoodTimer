@@ -100,7 +100,7 @@ function App() {
 		
 				setTimer(setInterval(()=>{
 					setCurrTime(new Date().getTime())
-				}, 21))
+				}, 1))
 			}}>
 				Start
 			</button>
