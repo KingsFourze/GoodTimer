@@ -1,0 +1,92 @@
+.BtnArea{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.BtnArea > button{
+  padding: 10px;
+  font-size: 24px;
+  min-width: 120px;
+  border-radius: 10px;
+  border: 1px solid #999999;
+}
+
+.MainTime{
+  text-align: center;
+  font-size: 90px;
+}
+.MainTime > span{
+  font-size: 32px;
+}
+
+.SecondTime{
+  text-align: center;
+  font-size: 50px;
+}
+.SecondTime > span{
+  font-size: 24px;
+}
+
+.parts{
+  flex: 2;
+}
+.times{
+  flex: 3;
+}
+.times > span{
+  font-size: 14px;
+}
+
+@media screen and (max-width: 450px) {
+  .BtnArea > button{
+    font-size: 18px;
+    min-width: 120px;
+  }
+
+  .MainTime{
+    font-size: 50px;
+  }
+  .MainTime > span{
+    font-size: 24px;
+  }
+
+  .SecondTime{
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .BtnArea > button{
+    font-size: 18px;
+    min-width: 120px;
+  }
+
+  .MainTime{
+    font-size: 36px;
+  }
+  .MainTime > span{
+    font-size: 24px;
+  }
+
+  .SecondTime{
+    font-size: 30px;
+  }
+  .SecondTime > span{
+    font-size: 16px;
+  }
+
+  .parts{
+    flex: 1;
+    text-align: left;
+    font-size: 14px;
+  }
+  .times{
+    flex: 3;
+    text-align: right;
+    font-size: 14px;
+  }
+  .times > span{
+    font-size: 12px;
+  }
+}
