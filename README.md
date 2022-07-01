@@ -14,7 +14,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Or you can run `export PORT=[port_number] && npm start`\
+Or you can run `export PORT=[port_number] && npm start` on Linux\
 Then the web will open at http://localhost:[port_number]
 
 The page will reload when you make changes.\
